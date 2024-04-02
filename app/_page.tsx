@@ -7,11 +7,10 @@ export default function Homepage () {
         <Header 
             brand='billbillions'
         />
-        <Main>
-            <div className='block w-100'>
-                <h1>Homepage</h1> 
-            </div>
-        </Main>
+        <Main />
+        <div className='block w-100'>
+            <h1>Homepage</h1> 
+        </div>
     </>
     );
 }
