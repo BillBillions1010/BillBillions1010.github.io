@@ -18,6 +18,7 @@ Special thanks go to:
 
 ## Table of Contents
 
+- [Home](./index.html)
 - [Versions](#versions)
 - [Demo](#demo)
 - [Quick Start](#quick-start)
