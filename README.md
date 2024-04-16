@@ -54,7 +54,7 @@ Special thanks go to:
 
 [View More](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme)
 
-## Quick start
+# Quick start
 
 - [Download from Github](https://github.com/creativetimofficial/nextjs-material-kit/archive/main.zip).
 - [Download from Creative Tim](https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-readme).
@@ -62,11 +62,11 @@ Special thanks go to:
 - `npm i nextjs-material-kit`
 - Install with [Bower](https://bower.io/?ref=creativetim): `bower install nextjs-material-kit`.
 
-## Documentation
+# Documentation
 
 The documentation for the NextJS Material Kit is hosted at our [website](https://demos.creative-tim.com/nextjs-material-kit/documentation/tutorial?ref=njsmk-readme).
 
-## File Structure
+# File Structure
 
 Within the download you'll find the following directories and files:
 
