@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang='en-us'>
     <head>
-        <meta name='viewport' content="width=device-width initial-scale=2.0 user-scalable=n" />
+        <meta charset='UTF-8' />
+        <meta name='viewport' content="width=device-width initial-scale=1.0 user-scalable=0" />
+        <title>BillBillions1010</title>
         <style>
             body {
+                width: 100%;
                 background-color: #3f3f3f;
+            }
+            div {
+                border: 2px solid #a3a3a3;
             }
         </style>
     </head>
     <body>
-        <header>
+        <header className='flex row bg-slate-400 center w-80'>
             <a href='https://shopify.dev/https://shopify.dev/'>Shopify dev</a>
             <a href="https://share.text-image.com/1ec13a1914589cd5">Car</a>
         </header>
         <div>
-            <pre id="tiresult" style="font-size: 9px; background-color: #000000; font-weight: bold; padding: 4px 5px; --fs: 9px;"><b style="color:#000000">11101110000000011010001110010011001101111001001111100111110110011010000101111111000100101100110101111010110111100110000011100</b>
+            <pre id="tiresult" style="font-size: 9px; background-color: #303e3f; font-weight: bold; padding: 4px 5px; --fs: 9px;">
+                <b style="color:#000000">11101110000000011010001110010011001101111001001111100111110110011010000101111111000100101100110101111010110111100110000011100</b>
                 <b style="color:#000000">11111110101000101110011001110000111000111001000011111000000110001100000000100001011010100101100111110111000111110010101001000</b>
                 <b style="color:#000000">11101010111010100010000110000011001110110011011010011110111000001111111100101101110110001010111000110110011101100000100011010</b>
                 <b style="color:#000000">00001011101100011011010000001111011101110111011100101101100110010101101011010101111000001000011101110101011001011101101111110</b>
@@ -196,17 +203,27 @@ c:::::::::cc:::::::::::::::::;;::;;::::::::::::::::::;;;;;;;;;;;;:;;::;;;;;:::::
             <iframe width="100%" href="https://www.brandcrowd.com/" width="100%"></iframe>
         </section>
         <script type="Text/JavaSctipt">
-            window = document.getElementbyClassName('i-frame');
+            import React from 'react';
+            import Link from 'next/link';
+            import Header from 'components/Header/Header';
             
-            default function Gapp(){
+            const window = document.getElementByClassName('i-frame');
+            
+            default function Login(){
+                submit() {
+                    const inputs = document.getElementById('login');
+                    document.writeln({inputs.value});
+                };
                 return(
-                    <form>
-                        <label htmlFor="Email"
-                        <input type='email' name='emailname' />
-                        <input type="password" name='password' id='password' />
-
-                    )
-
+                    <form method='POST' id='login' className='block center w-80 bg-blue-700 text-slate-400'>
+                        <Header className='center w-100'><h3 className='left-10px'>Login</h3><p className='right-10px'>create profile</p></Header>
+                        <label htmlFor="Email" value='Email'>
+                            <input type='email' name='email' id='email' /></label>
+                        <label HTMLfor='password' vlaue='Password'>
+                            <input type="password" name='password' id='password' /></label>
+                        <button onClick={submit()} id='submit'> Submit </button>
+                    </form>
+                );
         </script>
     </body>
 </html>
